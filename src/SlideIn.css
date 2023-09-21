@@ -1,0 +1,20 @@
+
+
+
+
+
+@keyframes slide-in {
+  0% {
+    transform: translateY(100px);
+    opacity: 0; /* Start med lav opacity (usynlig) */
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1; /* Slut med fuld opacity (synlig) */
+  }
+}
+
+.slide-in {
+  animation: slide-in 3s ease forwards;
+  opacity: 0; /* Start med lav opacity (usynlig) */
+}

@@ -1,0 +1,15 @@
+/* BeatIcon.css */
+
+.beat-icon {
+    animation: beat 1.5s infinite; /* Juster tiden (2s) for langsommere animation */
+  }
+  
+  @keyframes beat {
+    0%, 100% {
+      transform: scale(1); /* Start og slut: normal størrelse */
+    }
+    50% {
+      transform: scale(1.1); /* Midtvejs: lidt større */
+    }
+  }
+  
