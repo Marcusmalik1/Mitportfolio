@@ -2,12 +2,10 @@
 import React, { useState } from 'react';
 import '../App.css';
 import TimelineEventModal from '../components/TimelineEventModal';
-
-
 import hhx from "../assets/hhxafslutning.png";
 import italy from "../assets/italy.jpeg";
 import dania from "../assets/dania.png";
-import akademi from "../assets/assets/erhversakademi.png";
+import akademi from "../assets/erhversakademi.png";
 
 
 
@@ -55,6 +53,7 @@ function TimelineEvent({ event }) {
   );
 }
 
+
 function HorizontalTimeline() {
   const timelineData = [
     {
@@ -62,7 +61,6 @@ function HorizontalTimeline() {
       title: "Multimediedesigner",
       intro: "Begyndte som Multimediedesigner.",
       description: "Jeg startede på Multimediedesigner-uddannelsen med stor nysgerrighed og en stærk passion for at udforske det kreative og teknologiske. Gennem min tid på udannelsen har jeg dykket dybt ned i verdenen af design og kodning, og jeg har opdaget, hvor utroligt spændende og givende dette felt er.",
-      
       image: akademi, // Ændre "hhx" til variablen hhx, som indeholder stien til billedet
       imageClass: "modal-img", // Tilføj en klasse til billedet
     },
@@ -70,20 +68,27 @@ function HorizontalTimeline() {
       date: "2021",
       title: "Markedsføringsøkonom",
       intro: "Begyndte som markedsføringsøkonom.",
-      description: "I 2021 begyndte jeg min uddannelse som markedsføringsøkonom i Randers med store forventninger og ambitioner om at forstå forretningsverdenen. Desværre indså jeg ret hurtigt, at dette ikke var den rette vej for mig. I stedet for at insistere på at følge en sti, der ikke rigtig passede med mine indre passioner og ambitioner, træffede jeg beslutningen om at tage en anden retning."
+      description: "I 2021 begyndte jeg min uddannelse som markedsføringsøkonom i Randers med store forventninger og ambitioner om at forstå forretningsverdenen. Desværre indså jeg ret hurtigt, at dette ikke var den rette vej for mig. I stedet for at insistere på at følge en sti, der ikke rigtig passede med mine indre passioner og ambitioner, træffede jeg beslutningen om at tage en anden retning.",
+      image: dania, // Ændre "hhx" til variablen hhx, som indeholder stien til billedet
+      imageClass: "modal-img", // Tilføj en klasse til billedet
     },
     {
       date: "2021-2018",
       title: "Sabbatår",
       intro: "Fire års sabbatår med arbejde og ferie",
-      description: "I en periode på fire år besluttede jeg at tage sabbatår for at udforske og fordybe mig selv i personlig udvikling. Disse år blev en periode med selvopdagelse, hvor jeg dykkede dybere ned i mine interesser, og målet var at forstå mig selv bedre. Jeg valgte at arbejde i løbet af denne tid og samtidig opleve et par rejser til udlandet, og det gav mig muligheden for at udfordre mine egne grænser og reflektere over mine livsmål."
+      description: "I en periode på fire år besluttede jeg at tage sabbatår for at udforske og fordybe mig selv i personlig udvikling. Disse år blev en periode med selvopdagelse, hvor jeg dykkede dybere ned i mine interesser, og målet var at forstå mig selv bedre.",
+      image: italy, // Ændre "hhx" til variablen hhx, som indeholder stien til billedet
+      imageClass: "modal-img", // Tilføj en klasse til billedet
     },
     {
       date: "2018",
       title: "Hhx Tradium",
       intro: "Afslutning på HHX i Randers.",
-      description: "Efter jeg havde afsluttet min HHX-uddannelse på Tradium i Randers i 2018, stod jeg ved et skillevejspunkt i mit liv. I stedet for at fortsætte direkte på en videregående uddannelse, besluttede jeg mig for at sabbatår. Dette var en bevidst beslutning, der gav mig mulighed for at udforske verden og mig selv på en dybere måde."
-    },
+      description: "Efter jeg havde afsluttet min HHX-uddannelse på Tradium i Randers i 2018, stod jeg ved et skillevejspunkt i mit liv. I stedet for at fortsætte direkte på en videregående uddannelse, besluttede jeg mig for at sabbatår. Dette var en bevidst beslutning, der gav mig mulighed for at udforske verden og mig selv på en dybere måde.",
+      image: hhx, // Ændre "hhx" til variablen hhx, som indeholder stien til billedet
+      imageClass: "modal-img", // Tilføj en klasse til billedet
+    }
+    
   ];
 
   return (
