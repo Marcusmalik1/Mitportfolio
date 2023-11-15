@@ -7,7 +7,7 @@ import TimelineEventModal from '../components/TimelineEventModal';
 import hhx from "../assets/hhxafslutning.png";
 import italy from "../assets/italy.jpeg";
 import dania from "../assets/dania.png";
-import akademi from "../assets/erhversakademi.png";
+import akademi from "../assets/assets/erhversakademi.png";
 
 
 
