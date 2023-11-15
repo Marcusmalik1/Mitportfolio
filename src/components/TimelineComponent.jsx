@@ -3,6 +3,14 @@ import React, { useState } from 'react';
 import '../App.css';
 import TimelineEventModal from '../components/TimelineEventModal';
 
+
+import hhx from "../assets/hhxafslutning.png";
+import italy from "../assets/italy.jpeg";
+import dania from "../assets/dania.png";
+import akademi from "../assets/erhversakademi.png";
+
+
+
 function TimelineEvent({ event }) {
   const [modalVisible, setModalVisible] = useState(false);
 
@@ -32,6 +40,12 @@ function TimelineEvent({ event }) {
               <h3>{event.title}</h3>
               <p>{event.date}</p>
               <p>{event.description}</p>
+              {/* Billedet inkluderet under beskrivelsen */}
+              {event.image && <img
+                  src={event.image}
+                  alt="Beskrivende billede"
+                  className={event.imageClass} // Tilføj den ønskede klasse til billedet
+                />}
               <button onClick={closeModal}>X</button>
             </div>
           </div>
@@ -47,7 +61,10 @@ function HorizontalTimeline() {
       date: "2023-2022",
       title: "Multimediedesigner",
       intro: "Begyndte som Multimediedesigner.",
-      description: "Jeg startede på Multimediedesigner-uddannelsen med stor nysgerrighed og en stærk passion for at udforske det kreative og teknologiske. Gennem min tid på udannelsen har jeg dykket dybt ned i verdenen af design og kodning, og jeg har opdaget, hvor utroligt spændende og givende dette felt er."
+      description: "Jeg startede på Multimediedesigner-uddannelsen med stor nysgerrighed og en stærk passion for at udforske det kreative og teknologiske. Gennem min tid på udannelsen har jeg dykket dybt ned i verdenen af design og kodning, og jeg har opdaget, hvor utroligt spændende og givende dette felt er.",
+      
+      image: akademi, // Ændre "hhx" til variablen hhx, som indeholder stien til billedet
+      imageClass: "modal-img", // Tilføj en klasse til billedet
     },
     {
       date: "2021",
