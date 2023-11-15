@@ -47,19 +47,19 @@ function HorizontalTimeline() {
       date: "2023-2022",
       title: "Multimediedesigner",
       intro: "Begyndte som Multimediedesigner.",
-      description: "Jeg startede på Multimediedesigner-uddannelsen med stor nysgerrighed og en stærk passion for at udforske det kreative og teknologiske. Gennem min tid på udannelsen har jeg dykket dybt ned i verdenen af design og kodning, og jeg har opdaget, hvor utroligt spændende og givende dette felt er. Fascineret af den måde, hvorpå digitalt design og kodning smelter sammen for at skabe smukke og funktionelle websteder og applikationer, har jeg arbejdet målrettet på at forfine mine færdigheder og udvide min horisont. Nu ser jeg med stor spænding frem til at forfølge en karriere inden for design og kodning. Min ambition er at skabe digitale oplevelser som er effektive, flotte og brugercentrerede."
+      description: "Jeg startede på Multimediedesigner-uddannelsen med stor nysgerrighed og en stærk passion for at udforske det kreative og teknologiske. Gennem min tid på udannelsen har jeg dykket dybt ned i verdenen af design og kodning, og jeg har opdaget, hvor utroligt spændende og givende dette felt er. Fascineret af den måde, hvorpå digitalt design og kodning smelter sammen for at skabe smukke og funktionelle websteder og applikationer, har jeg arbejdet målrettet på at forfine mine færdigheder og udvide min horisont."
     },
     {
       date: "2021",
       title: "Markedsføringsøkonom",
       intro: "Begyndte som markedsføringsøkonom.",
-      description: "I 2021 begyndte jeg min uddannelse som markedsføringsøkonom i Randers med store forventninger og ambitioner om at forstå forretningsverdenen. Desværre indså jeg ret hurtigt, at dette ikke var den rette vej for mig. I stedet for at insistere på at følge en sti, der ikke rigtig passede med mine indre passioner og ambitioner, træffede jeg beslutningen om at tage en anden retning. Denne beslutning blev en vigtig milepæl i mit liv, da den åbnede døren til en dybere selvopdagelsesrejse. Her opdagede jeg min ægte passion for design, kodning og kreativt udtryk. At vælge at følge mit hjerte har været en afgørende beslutning, der har formet den person, jeg er i dag, og den retning, jeg ser frem til at forfølge i min karriere"
+      description: "I 2021 begyndte jeg min uddannelse som markedsføringsøkonom i Randers med store forventninger og ambitioner om at forstå forretningsverdenen. Desværre indså jeg ret hurtigt, at dette ikke var den rette vej for mig. I stedet for at insistere på at følge en sti, der ikke rigtig passede med mine indre passioner og ambitioner, træffede jeg beslutningen om at tage en anden retning."
     },
     {
       date: "2021-2018",
       title: "Sabbatår",
       intro: "Fire års sabbatår med arbejde og ferie",
-      description: "I en periode på fire år besluttede jeg at tage sabbatår for at udforske og fordybe mig selv i personlig udvikling. Disse år blev en periode med selvopdagelse, hvor jeg dykkede dybere ned i mine interesser, og målet var at forstå mig selv bedre. Jeg valgte at arbejde i løbet af denne tid og samtidig opleve et par rejser til udlandet, og det gav mig muligheden for at udfordre mine egne grænser og reflektere over mine livsmål. Det var overordnet set en rejse ind i mig selv, der hjalp mig med at definere mine værdier og forme mine fremtidige ambitioner."
+      description: "I en periode på fire år besluttede jeg at tage sabbatår for at udforske og fordybe mig selv i personlig udvikling. Disse år blev en periode med selvopdagelse, hvor jeg dykkede dybere ned i mine interesser, og målet var at forstå mig selv bedre. Jeg valgte at arbejde i løbet af denne tid og samtidig opleve et par rejser til udlandet, og det gav mig muligheden for at udfordre mine egne grænser og reflektere over mine livsmål."
     },
     {
       date: "2018",
