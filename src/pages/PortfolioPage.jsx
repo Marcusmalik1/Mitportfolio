@@ -5,6 +5,7 @@
 import Elrecyclingrespons from '../components/Elrecycling';
 import Tuborgrespons from '../components/Tuborgsquash';
 import Footer from '../components/Footersite';
+import Movie from '../components/Movie';
 
 export default function PortfolioPage() {
     return (
@@ -20,6 +21,10 @@ export default function PortfolioPage() {
 
             <div>
                 <Tuborgrespons />
+            </div>
+
+            <div>
+                <Movie />
             </div>
 
              
