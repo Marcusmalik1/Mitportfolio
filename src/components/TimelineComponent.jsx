@@ -47,7 +47,7 @@ function HorizontalTimeline() {
       date: "2023-2022",
       title: "Multimediedesigner",
       intro: "Begyndte som Multimediedesigner.",
-      description: "Jeg startede på Multimediedesigner-uddannelsen med stor nysgerrighed og en stærk passion for at udforske det kreative og teknologiske. Gennem min tid på udannelsen har jeg dykket dybt ned i verdenen af design og kodning, og jeg har opdaget, hvor utroligt spændende og givende dette felt er. Fascineret af den måde, hvorpå digitalt design og kodning smelter sammen for at skabe smukke og funktionelle websteder og applikationer, har jeg arbejdet målrettet på at forfine mine færdigheder og udvide min horisont."
+      description: "Jeg startede på Multimediedesigner-uddannelsen med stor nysgerrighed og en stærk passion for at udforske det kreative og teknologiske. Gennem min tid på udannelsen har jeg dykket dybt ned i verdenen af design og kodning, og jeg har opdaget, hvor utroligt spændende og givende dette felt er."
     },
     {
       date: "2021",
