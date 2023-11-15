@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faPaintBrush, faUser } from '@fortawesome/free-solid-svg-icons';
 import { faMobileAlt } from "@fortawesome/free-solid-svg-icons";
 import { useRef, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function AboutPage() {
   const newSectionRef = useRef(null);
@@ -97,9 +98,9 @@ export default function AboutPage() {
     <div className="cta-items">
   <p>Hvis du er på udkig efter en dygtig og dedikeret multimediedesigner, vil jeg gerne høre fra dig!</p>
   <div className="cta-container">
-    <a href="/contact">
+    <Link to="/contact">
       <button className="cta-knap">Kontakt Mig!</button>
-    </a>
+    </Link>
   </div>
 </div>
 
