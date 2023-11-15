@@ -17,7 +17,7 @@ export default function Movie() {
           </div>
         </div>
         <div className="elrecycling-image">
-          <img src={movie} alt="Billede af Marcus" />
+          <img className="movie-magnet" src={movie} alt="Billede af Marcus" />
         </div>
         
       </section>
